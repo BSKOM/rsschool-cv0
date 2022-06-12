@@ -225,6 +225,7 @@ h1 {
   text-transform: uppercase;
 }
 
+h2,
 h3 {
   color: rgb(75, 151, 75);
   font-size: calc((100vw - 30rem)/50 * 0.4 + 0.8rem);
