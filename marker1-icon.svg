@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 27.563 36.16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #242324;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Marker_copy" data-name="Marker copy" class="cls-1" d="M148.752,1816.56c7.3,0,13.872,5.91,13.872,13.2,0,6.99-14.027,22.95-14.027,22.95s-13.54-16.19-13.54-22.95C135.057,1822.47,141.451,1816.56,148.752,1816.56Zm0.089,4.15a4.14,4.14,0,1,1-4.144,4.14A4.14,4.14,0,0,1,148.841,1820.71Z" transform="translate(-135.062 -1816.56)"/>
+</svg>
