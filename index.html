@@ -6,9 +6,329 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
-<body></body>
+<body>
+
+  <div class="cv">
+    <div id="top" class="container top">
+      <a href="#top" id="go-top"></a>
+      <div class="cv__wrap">
+        <header class="cv__header">
+          <div class="cv__header-wrap">
+            <div class="cv__header-one ">
+            </div>
+            <div class="cv__header-two">
+              <nav class="menu">
+                <ul class="menu__list">
+                  <li class="menu__list-item">
+                    <a class="menu__list-link" href="#about">
+                      about
+                    </a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__list-link" href="#experience">
+                      experience
+                    </a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__list-link" href="#example">
+                      example
+                    </a>
+                  </li>
+                  <li class="menu__list-item">
+                    <a class="menu__list-link" href="#contacts">
+                      contacts
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <div class="cv__inner">
+          <aside class="cv-brief">
+            <figure>
+              <img class="cv-brief__avatar" src="IMG-3805.jpg" alt="avatar">
+              <figcaption class="cv__title">
+                <h1 class="cv__h2">Bohdan Shelest</h1>
+                <span>engineer</span>
+              </figcaption>
+            </figure>
+            <div id="contacts" class="cv-contacts">
+              <h3 class="cv__h3">contact</h3>
+              <span class="sv-brief__line"></span>
+              <hr>
+              <ul class="contacts">
+                <li>
+                  <a class="contacts__item contact" href="tel:+380507161003">
+                    <div class="contact__icon">
+                      <img class="contact__icon-img" src="phone1-icon.svg" alt="phone icon">
+                    </div>
+                    <span class="contact__info">
+                      +380 50 716 1003
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contacts__item contact" href="#">
+                    <div class="contact__icon">
+                      <img class="contact__icon-img" src="email1-icon.svg" alt="email icon">
+                    </div>
+                    <span class="contact__info">
+                      b.shelestua@gmail.com
+                    </span>
+                  </a>
+                </li>
+
+                <li>
+                  <a class="contacts__item contact" href="http://f50716er.beget.tech/cv/">
+                    <div class="contact__icon">
+                      <img class="contact__icon-img" src="web1-icon.svg" alt="web icon">
+                    </div>
+                    <span class="contact__info">
+                      http://f50716er.beget.tech/cv/
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a class="contacts__item contact" href="#">
+                    <div class="contact__icon">
+                      <img class="contact__icon-img" src="marker1-icon.svg" alt="marker icon">
+                    </div>
+                    <span class="contact__info">
+                      Kremenets Ukraine
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="cv-educ">
+              <h3 class="cv__h3">Education</h3>
+              <span class="sv-brief__line"></span>
+              <hr>
+              <span>NUWEE Rivne</span>
+            </div>
+            <div class="cv-english">
+              <h3 class="cv__h3">English</h3>
+              <span class="sv-brief__line"></span>
+              <hr>
+              <span>A1+</span>
+              <P>
+                I take lessons three times a week.
+              </P>
+            </div>
+            <div class="cv-scills">
+              <h3 class="cv__h3">Scils</h3>
+              <span class="sv-brief__line"></span>
+              <hr>
+              <p class="cv-scills__general">Over 15 programming languages... <br> <br>
+              </p>
+              <ul class="cv-scills__list">
+                <li class="cv-scill__item">
+                  <div class="progress__label">JavaScript</div>
+                  <div class="progress__bg">
+                    <div class="progress__scale" style="width:60%"></div>
+                  </div>
+                </li>
+                <li class="cv-scill__item">
+                  <div class="progress__label">React</div>
+                  <div class="progress__bg">
+                    <div class="progress__scale" style="width:50%"></div>
+                  </div>
+                </li>
+                <li class="cv-scill__item">
+                  <div class="progress__label">HTML/CSS</div>
+                  <div class="progress__bg">
+                    <div class="progress__scale" style="width:75%"></div>
+                  </div>
+                </li>
+                <li class="cv-scill__item">
+                  <div class="progress__label">Git</div>
+                  <div class="progress__bg">
+                    <div class="progress__scale" style="width:65%"></div>
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="cv-scills__abils">
+                <li class="cv-scill__item">
+                  <div class="progress__label">Creativity</div>
+                  <div class="progress__bg">
+                    <div class="progress__scale" style="width:95%"></div>
+                  </div>
+                </li>
+                <li class="cv-scill__item">
+                  <div class="progress__label">Community</div>
+                  <div class="progress__bg">
+                    <div class="progress__scale" style="width:80%"></div>
+                  </div>
+                </li>
+                <li class="cv-scill__item">
+                  <div class="progress__label">Diligent</div>
+                  <div class="progress__bg">
+                    <div class="progress__scale" style="width:90%"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          <main id="about" class="cv-detail">
+            <div class="burger">
+              <div class="burger__top" onclick="this.classList.toggle('active')">
+              </div>
+
+              <ul class="burger__menu">
+                <li class="burger__item">
+                  <a class="burger__item-link" href="#about">
+                    about
+                  </a>
+                </li>
+                <li class="burger__item">
+                  <a class="burger__item-link" href="#experience">
+                    experience
+                  </a>
+                </li>
+                <li class="burger__item">
+                  <a class="burger__item-link" href="#example">
+                    work example
+                  </a>
+                </li>
+                <li class="burger__item">
+                  <a class="burger__item-link" href="#contacts">
+                    contacts
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="cv-about">
+              <h2 class="cv__h3">About</h2>
+              <span class="sv-detail__line"></span>
+              <hr>
+              <P>
+                I currently intend to create an application for developing web applications. Due to its wide popularity,
+                I chose the
+                JavaScript development language. The purpose of training is to reach the appropriate level to create a
+                presentable code.
+              </P>
+            </div>
+            <div class="cv-about-video">
+              <h3 class="cv__h3">About video</h3>
+              <span class="cv-detail__line"></span>
+              <hr>
+              <iframe class="cv-video" src="https://www.youtube.com/embed/XbM_ns_nkKE" title="YouTube video player"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            </div>
+            <div id="experience" class="cv-work">
+              <h3 class="cv__h3">Work experience</h3>
+              <span class="sv-detail__line"></span>
+              <hr>
+              <h4 class="cv__h4"> Not working
+              </h4>
+              <h6 class="cv__h4">My house | Ukraine | 2020 - Present</h6>
+              <p>
+                Advanced training in online courses.
+              </p>
+
+              <ol>
+                <li>Passed 13 courses</li>
+                <li>Received 11 certificates.</li>
+                <li>I am currently studying in RS Shool - for example the implementation of the classic Caesar code:
+                  <pre class="pre-code">
+                    <code class="code">
+  <span class="kwrd">function</span> <span class="func">coder</span>(a = 1, key, str) <span class="kwrd">{</span>
+    <span class="kwrd">return</span> = <span class="func">String</span>(str).<span class="func">replace</span>(/(<span
+    class="kwrd">[</span>A-Za-z<span class="kwrd">]</span>)/g,
+    (match) => <span class="kwrd">{</span>
+    let lowerUpper = match.<span class="func">codePointAt</span>(0) > 
+      <span class="str">'Z'</span>.<span
+    class="func">codePointAt</span>(0) ? <span class="str">'a'</span>.<span class="func">codePointAt</span>(0) 
+      : <span
+    class="str">'A'</span>.<span class="func">codePointAt</span>(0)
+    <span class="kwrd">return</span> String.<span class="func">fromCodePoint</span>
+      ((match.<span class="func">codePointAt</span>(0) - lowerUpper + 26 
+      + a * key % 26) % 26 + lowerUpper)<span class="kwrd">}</span>)
+  <span class="kwrd">}</span>'
+  <span class="comm">// a is action +1 - coded, -1 - decoded </span>
+                      </code>
+                  </pre>
+                </li>
+              </ol>
+            </div>
+            <div id="example" class="cv-work-links">
+              <h3 class="cv__h3">Work example</h3>
+              <span class="sv-detail__line"></span>
+              <hr>
+              <ul class="example">
+                <li class="example__item  ">
+                  <a class="example__link canary" href="http://f50716er.beget.tech/"
+                    style="text-decoration: none; color: #243f4d;">
+                    <h4>
+                      Surfing - canary
+                    </h4>
+                    <span class="example__link-info">
+                      HTML, CSS, jQuery
+                    </span>
+                  </a>
+                </li>
+                <li class="example__item ">
+                  <a class="example__link wildlife"
+                    href="https://rolling-scopes-school.github.io/bskom-JSFE2021Q1/wildlife/"
+                    style="text-decoration: none; color: #243f4d;">
+                    <h4>
+                      Virtual nature
+                    </h4>
+                    <span class="example__link-info">
+                      HTML, CSS,
+                    </span>
+                  </a>
+                </li>
+                <li class="example__item ">
+                  <a class="example__link museum"
+                    href="https://rolling-scopes-school.github.io/bskom-JSFEPRESCHOOL/museum/"
+                    style="text-decoration: none; color: #243f4d; ">
+                    <h4>
+                      Louvre museum
+                    </h4>
+                    <span class="example__link-info">
+                      HTML, CSS
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </main>
+        </div>
+
+        <footer class="cv__footer">
+          <span class="sv-detail__line"></span>
+          <hr class="cv__footer-line">
+          <div class="cv__footer-wrap">
+            <div class="cv__footer-one">
+              <a class="cv__footer-logo " href="https://rs.school/js-stage0/">
+                <img class="cv__footer-img" src="rs_school_js1.svg" alt="logo">
+              </a>
+            </div>
+            <div class="cv__footer-two ">
+              <div class="cv__footer-main ">
+                <div class="contacts__footer-two">
+                  <a class="contacts__item contact" href="https://github.com/BSKOM">
+                    <div class="contact__icon">
+                      <img class="contact__icon-img" src="./assets/git.png" alt="git icon">
+                    </div>
+                  </a>
+                </div>
+                <p>© 2022 Bohdan Shelest</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
 
 </html>
